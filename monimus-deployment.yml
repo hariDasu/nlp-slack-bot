@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: monimus-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        name: monimus-node
+    spec:
+      containers:
+      - image: us.gcr.io/nltk-funcs/monimus-botkit
+        name: monimus-node
+        ports:
+        - name: http-server
+          containerPort: 5000

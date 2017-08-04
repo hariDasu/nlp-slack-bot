@@ -1,0 +1,22 @@
+{  "sessions": [
+    "What sessions am I registered to?",
+    "What sessions am I teaching?",
+    "Which sessions are about PHP?",
+    "Are there Sessions about Sales?",  
+    "Who has Sales skills?",
+    "What is my content?", 
+    "What do I have to do?",
+    "What are my questions?"
+  ],
+    "learningPaths": [
+      "What learning paths do my students have to complete?",
+      "What are my learning paths?"
+  ],
+    "calendar":[
+      "What do I have to do?",
+      "what do i have to do",
+      "What is due tomorrow",
+      "What is my event schedule?",
+      "what is my class schedule?"
+  ]
+}

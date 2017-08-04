@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: monimus-botkit
+  labels:
+    app: web
+spec:
+  containers:
+    - name: nltk-funcs
+      image: gcr.io/monimus-botkit/nltk-funcs:v1
+      ports:
+        - containerPort: 9000
+    - name: node-botkit
+      image: gcr.io/monimus-botkit/node-botkit:v5
+      ports:
+        - containerPort: 5000

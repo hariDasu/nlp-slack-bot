@@ -1,0 +1,5 @@
+aiohttp==0.22.1
+aioxmlrpc==0.3
+chardet==2.3.0
+multidict==1.2.0
+requests==2.10.0
