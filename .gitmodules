@@ -1,0 +1,2 @@
+[submodule "nltk-python"]
+	url = git@github.com:hariDasu/nltk-python.git
